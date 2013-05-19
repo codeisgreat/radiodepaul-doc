@@ -2,24 +2,24 @@
 
 ## Show Fields
 
-| field             | type    | description                     |
-| -------           | ------  | -------------                   |
-| id                | integer | Primary id of a show            |
-| genres            | string  | comma separated genres          |
-| hosts             | array   | array of hosts                  |
-| scheduled_slots   | array   | array of scheduled slots        |
-| short_description | string  | show description                |
-| long_description  | string  | long description                |
-| facebook          | string  | facebook page username          |
-| twitter           | string  | twitter username                |
-| email             | string  | email address                   |
-| website           | string  | website url                     |
-| show_url          | string  | url for show                    |
-| podcasts          | array   | array of podcasts               |
-| photo_thumb       | string  | url for  50px,50px show image   |
-| photo_small       | string  | url for  150px,150px show image |
-| photo_medium      | string  | url for  300px,300px show image |
-| photo_large       | string  | url for  600px,600px show image |
+| field             | type    | description                    |
+| ----------------- | ------- | ------------------------------ |
+| id                | integer | Primary id of a show           |
+| genres            | string  | comma separated genres         |
+| hosts             | array   | array of hosts                 |
+| scheduled_slots   | array   | array of scheduled slots       |
+| short_description | string  | show description               |
+| long_description  | string  | long description               |
+| facebook          | string  | facebook page username         |
+| twitter           | string  | twitter username               |
+| email             | string  | email address                  |
+| website           | string  | website url                    |
+| show_url          | string  | url for show                   |
+| podcasts          | array   | array of podcasts              |
+| photo_thumb       | string  | url for 50px,50px show image   |
+| photo_small       | string  | url for 150px,150px show image |
+| photo_medium      | string  | url for 300px,300px show image |
+| photo_large       | string  | url for 600px,600px show image |
 
 ## List Shows
 

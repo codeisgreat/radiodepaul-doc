@@ -2,26 +2,26 @@
 
 ## Host Fields
 
-| field         | type    | description                      |
-| ------------- | ------  | -------------------------------- |
-| id            | integer | Primary id of a host             |
-| name          | string  | host name                        |
-| hometown      | string  | host hometown                    |
-| major         | string  | host major                       |
-| bio           | string  | host bio                         |
-| nickname      | string  | host nickname                    |
-| class_year    | string  | host class year                  |
-| email         | string  | host email address               |
-| facebook      | string  | host facebook username           |
-| twitter       | string  | host twitter username            |
-| linkedin      | string  | host linkedin username           |
-| website       | string  | host website url                 |
-| shows         | array   | host shows                       |
-| person_url    | string  | host url                         |
-| photo_thumb   | string  | url for  50px,50px host image    |
-| photo_small   | string  | url for  150px,150px host image  |
-| photo_medium  | string  | url for  300px,300px host image  |
-| photo_large   | string  | url for  600px,600px host image  |
+| field         | type    | description                    |
+| ------------- | ------  | ------------------------------ |
+| id            | integer | Primary id of a host           |
+| name          | string  | host name                      |
+| hometown      | string  | host hometown                  |
+| major         | string  | host major                     |
+| bio           | string  | host bio                       |
+| nickname      | string  | host nickname                  |
+| class_year    | string  | host class year                |
+| email         | string  | host email address             |
+| facebook      | string  | host facebook username         |
+| twitter       | string  | host twitter username          |
+| linkedin      | string  | host linkedin username         |
+| website       | string  | host website url               |
+| shows         | array   | host shows                     |
+| person_url    | string  | host url                       |
+| photo_thumb   | string  | url for 50px,50px host image   |
+| photo_small   | string  | url for 150px,150px host image |
+| photo_medium  | string  | url for 300px,300px host image |
+| photo_large   | string  | url for 600px,600px host image |
 
 
 ## List Hosts
@@ -31,6 +31,10 @@ GET /people/getList.js
 ```
 
 ### Response
+
+```bash
+Status: 200 OK
+```
 
 ```json
 [{
