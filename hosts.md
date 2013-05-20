@@ -79,3 +79,17 @@ Status: 200 OK
 
 # Response is the singular version of above
 ```
+
+## List Random Hosts
+
+```bash
+GET /people/getRandom.js
+```
+
+### Response
+
+```bash
+Status: 200 OK
+
+# Response is the same version of above
+```
